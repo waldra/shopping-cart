@@ -27,10 +27,6 @@
     <sonar.dynamicAnalysis>reuseReports</sonar.dynamicAnalysis>
     <sonar.jacoco.reportPath>${project.basedir}/../target/jacoco.exec</sonar.jacoco.reportPath>
     <sonar.language>java</sonar.language>
-    <!-- Add sonarqube -->
-    <sonar.projectKey>shopping-card</sonar.projectKey>
-    <sonar.host.url>http://54.216.75.108:9000</sonar.host.url>
-    <sonar.login>squ_8cc2670e256f02617fec84ce24d456405c460f30</sonar.login>
     </properties>
 
     <dependencies>
